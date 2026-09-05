@@ -58,3 +58,32 @@ body {
     background-color: red;
     opacity: 0.8;
 }
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .btn {
+        width: 120px;
+        height: 120px;
+        margin: 8px;
+        border-radius: 20px;
+    }
+
+    .game-over {
+        font-size: 25px;
+    }
+}
